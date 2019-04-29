@@ -9,3 +9,8 @@ def arr2str(arr):
     for e in arr:
         strings.append(label_dict[e])
     return strings
+
+
+def int2str(num):
+    global label_dict
+    return label_dict[num]
