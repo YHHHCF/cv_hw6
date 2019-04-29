@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f564dc2-44af-4ff1-8824-03f7286aaf03" name="Default Changelist" comment="" />
+    <list default="true" id="8f564dc2-44af-4ff1-8824-03f7286aaf03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict_proc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dict_proc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/multi_object_tracking$dict_proc.coverage" NAME="dict_proc Coverage Results" MODIFIED="1556571154728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_object_tracking$dict_proc.coverage" NAME="dict_proc Coverage Results" MODIFIED="1556572594578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-527497122">
@@ -21,22 +25,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1279" />
+          <entry key="py" value="1478" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1279" />
+          <entry key="Python" value="1478" />
         </counts>
       </usages-collector>
     </session>
@@ -55,16 +59,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="958">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="387">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
-                <marker date="1556570292031" expanded="true" signature="952:1337" ph="..." />
-                <marker date="1556570292031" expanded="true" signature="1383:1491" ph="..." />
+                <marker date="1556571943945" expanded="true" signature="973:1358" ph="..." />
+                <marker date="1556571943945" expanded="true" signature="1539:1631" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dict_proc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -79,6 +92,7 @@
       <list>
         <option value="$PROJECT_DIR$/multi_object_tracking.py" />
         <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/dict_proc.py" />
       </list>
     </option>
   </component>
@@ -88,8 +102,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="78" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="66" />
     <option name="y" value="23" />
     <option name="width" value="1389" />
     <option name="height" value="877" />
@@ -176,11 +190,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1389" height="877" extended-state="6" />
+    <frame x="66" y="23" width="1389" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -190,7 +204,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34267515" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -209,6 +223,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1556571943945" expanded="true" signature="973:1358" ph="..." />
+            <marker date="1556571943945" expanded="true" signature="1539:1631" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/multi_object_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -219,15 +245,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
+    <entry file="file://$PROJECT_DIR$/dict_proc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="958">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1556570292031" expanded="true" signature="952:1337" ph="..." />
-            <marker date="1556570292031" expanded="true" signature="1383:1491" ph="..." />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>

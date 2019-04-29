@@ -1,5 +1,11 @@
 import numpy as np
 
-dict_txt = np.loadtxt('./dict.txt')
-print(len(dict_txt))
+label_dict = np.load('./label_dict.npy', allow_pickle=True)
 
+
+def arr2str(arr):
+    global label_dict
+    strings = []
+    for e in arr:
+        strings.append(label_dict[e])
+    return strings

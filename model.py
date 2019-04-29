@@ -15,6 +15,7 @@ class Net(nn.Module):
                                       nn.ReLU(inplace=True),
                                       nn.Dropout(0.5))
         self.layers_3 = nn.Linear(in_features=4096, out_features=1000, bias=True)
+        print(model)
 
     def forward(self, x):
         x = self.layers_1(x)
@@ -50,6 +51,13 @@ def print_model(model):
     params = model.state_dict()
     for key in params.keys():
         print(key, torch.max(params[key]))
+
+
+def save_ckpt(model, path):
+    torch.save({
+        'model_state_dict': model.state_dict(),
+    }, path)
+    return
 
 
 if __name__ == '__main__':
